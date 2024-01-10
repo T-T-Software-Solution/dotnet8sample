@@ -1,0 +1,9 @@
+version: '3.8'
+services:
+  appapi:
+    build: ./API
+    container_name: 'app.api'
+    ports:
+      - '8000:80'
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
