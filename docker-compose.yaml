@@ -4,6 +4,6 @@ services:
     build: ./API
     container_name: 'app.api'
     ports:
-      - '8088:8080'
+      - '8011:8080'
     environment:
       - ASPNETCORE_ENVIRONMENT=Development
